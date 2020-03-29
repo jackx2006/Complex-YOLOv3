@@ -4,7 +4,7 @@ Complete but Unofficial PyTorch Implementation of [Complex-YOLO: Real-time 3D Ob
 ## Installation
 #### Clone the project and install requirements
     $ git clone https://github.com/ghimiredhikura/Complex-YOLOv3
-    $ cd Complex-YOLO-V3/
+    $ cd Complex-YOLOv3/
     $ sudo pip install -r requirements.txt
 
 ## Quickstart
@@ -12,7 +12,7 @@ Complete but Unofficial PyTorch Implementation of [Complex-YOLO: Real-time 3D Ob
 #### Download pretrained weights [[yolov3](https://drive.google.com/file/d/1e7PCqeV3tS68KtBIUbX34Uhy81XnsYZV/view), [tiny-yolov3](https://drive.google.com/file/d/19Qvpq2kQyjQ5uhQgi-wcWmSqFy4fcvny/view)]
     $ cd checkpoints/
     $ python download_weights.py
-    
+
 #### Test [without downloading dataset] 
 
     1. $ python test_detection.py --split=sample --folder=sampledata  
@@ -21,7 +21,7 @@ Complete but Unofficial PyTorch Implementation of [Complex-YOLO: Real-time 3D Ob
 #### Demo Video [[Click to Play](https://www.youtube.com/watch?v=JzywsbuXFOg)]
 [![complex-yolov3_gif][complex-yolov3_gif]](https://youtu.be/JzywsbuXFOg)
 
-[//]: # (Image References)
+[//]: # "Image References"
 [complex-yolov3_gif]: ./assets/complex-yolov3.gif
 
 ## Data Preparation
@@ -107,7 +107,6 @@ mAP (min. 50 IoU)
 <p align="center"><img src="assets/result1.jpg" width="1246"\></p>
 <p align="center"><img src="assets/result2.jpg" width="1246"\></p>
 <p align="center"><img src="assets/result3.jpg" width="1246"\></p>
-
 ## Credit
 
 1. Complex-YOLO: https://arxiv.org/pdf/1803.06199.pdf
